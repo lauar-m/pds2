@@ -2,27 +2,22 @@
 #include <string>
 using namespace std;
 
-Funcionario::Funcionario(int id, string nome, double salarioBase)
-{
-   
+Funcionario::Funcionario(int id, string nome, double salarioBase){
+
 }
 
-int getId()
-{
+int Funcionario::getId(){
     return this->id;
 }
 
-string getNome()
-{
+string Funcionario::getNome(){
     return this->nome;
 }
 
-double getSalarioBase()
-{
+double Funcionario::getSalarioBase(){
     return this->salarioBase;
 }
 
-double Funcionario::calcularSalarioTotal()
-{
+double Funcionario::calcularSalarioTotal(){
     return this->salarioBase;
 }

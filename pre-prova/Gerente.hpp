@@ -13,8 +13,9 @@ class Gerente : public Funcionario
     
     public:
         Gerente(int id, string nome, double salarioBase, double bonusAnual);
+        void setBonusAnual(double bonusAnual);
         double getBonusAnual();
-        double calcularSalarioBase();
+        double calcularSalarioTotal();
 };
 
 #endif 

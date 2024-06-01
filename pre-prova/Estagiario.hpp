@@ -10,7 +10,7 @@ class Estagiario : public Funcionario
         double bolsaAuxilio;
 
     public:
-        Estagiario(int id, string nome, double salarioBase);
+        Estagiario(int id, string nome, double bolsaAuxilio);
         double calcularSalarioTotal();
 }; 
 
